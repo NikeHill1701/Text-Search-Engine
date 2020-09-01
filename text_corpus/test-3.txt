@@ -1,0 +1,65 @@
+MA453 Theory of Computation
+Assignment 1, Lec 1-2
+Due: 04 th Mar 2020, Wed
+IIT GUWAHATI
+1. Fill up the blanks:
+(a) {} ∗ =
+(b) For any language L, ∅L = L∅ =
+2. Let L be a language defined over an alphabet Σ. Define L + = LL ∗ . Under what conditions
+will L + = L ∗ − {}?
+3. Let Σ be an alphabet. Answer the following questions with formal justification:
+(a) Is every language defined over Σ countable?
+(b) Is the set of all languages defined over Σ countable?
+4. Consider the graph shown below on the right and answer the following questions.
+(a) Give a suitable alphabet of your choice and represent the graph
+as a string.
+a
+(b) Represent the graph as a string in binary alphabet {0, 1}. Pro-
+vide details to interpret your binary encoding.
+c
+d
+b
+5. Let Σ 1 and Σ 2 be two disjoint alphabets. Is it always possible to define a one-to-one function
+(w)|
+T : Σ 1 ∗ → Σ 2 ∗ . If yes, what is maximum value of |T |w|
+? (You also need to consider the case
+in which Σ 1 or Σ 2 is unary.)
+6. Recall that a finite state machine is a 5-tuple (Q, Σ, δ, q 0 , F ). For example, an automata that
+accepts a string with one or more 1s is
+({q 1 , q 2 }, {0, 1}, {(q 1 , 0, q 1 ), (q 1 , 1, q 2 ), (q 2 , 0, q 1 ), (q 2 , 1, q 2 )}, {q 2 }).
+Consider the above description as a string over an appropriate alphabet. Is it possible to
+design a DFA that accepts a string if and only if it is a valid description of a DFA? How
+about designing a PDA/Turing machine that accepts only valid description of a DFA?
+MA453 Theory of Computation
+Assignment 2
+Lectures 3, 4 & 5
+IIT GUWAHATI
+1. Recall proof of the theorem “If a language, L, is Turing-recognizable then some enumerator
+enumerates it”. Let M be TM that recognizes L. Consider an alternative definition of ‘E’:
+E = “Ignore the input
+for i = 1, 2, 3, . . .
+for w ∈ {x ∈ Σ ∗ | |x| = i}
+run M on w, if M accepts w then print w
+”
+Will ‘E’ enumerate L? Note that {x ∈ Σ ∗ | |x| = i} is a finite set of all i length strings.
+2. Consider doubly Turing machine with an infinite tape in both directions. Show that such a
+TM is equivalent to ordinary TM.
+3. Consider the following alternative definition of TM transition function:
+δ : Q × Γ → Q × Γ × {R, RESET }
+where R moves the head to the next cell on the right and RESET moves the head to the first
+cell of the tape. Show that this TM is equivalent to ordinary TM.
+4. Consider the following alternative definition of TM transition function:
+δ : Q × Γ → Q × Γ × {R, S}
+where R moves the head to the next cell on the right and S keeps the head at its current
+location. Show that this TM is not equivalent to ordinary TM.
+5. Consider write-once Turing machine that can write on each tape cell at most once. Show that
+this is equivalent to ordinary TM.
+6. Consider read-only-input Turing Machine which can write anywhere on its tape except the
+input portion. In other words, the cells containing the input cannot be modified. The machine
+can write as much it wish beyond the input segment. Show that this TM is not equivalent to
+ordinary TM.
+7. Let k-PDA be a pushdown automaton with k (≥ 0) stacks. In particular, 0-pda is a PDA with
+no stack! Identify the class of languages recognized by 0-PDA, 1-PDA, 2-PDA and k-PDA
+(k > 2).
+8. Find if the set of decidable languages is closed under operations ∪, ∩, , · and ∗.
+9. Find if the set of recognizable languages is closed under operations ∪, ∩, , · and ∗.

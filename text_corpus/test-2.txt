@@ -1,0 +1,95 @@
+MA453 Theory of Computation
+Assignment 1, Lec 1-2
+Due: 04 th Mar 2020, Wed
+IIT GUWAHATI
+1. Fill up the blanks:
+(a) {} ∗ =
+(b) For any language L, ∅L = L∅ =
+2. Let L be a language defined over an alphabet Σ. Define L + = LL ∗ . Under what conditions
+will L + = L ∗ − {}?
+3. Let Σ be an alphabet. Answer the following questions with formal justification:
+(a) Is every language defined over Σ countable?
+(b) Is the set of all languages defined over Σ countable?
+4. Consider the graph shown below on the right and answer the following questions.
+(a) Give a suitable alphabet of your choice and represent the graph
+as a string.
+a
+(b) Represent the graph as a string in binary alphabet {0, 1}. Pro-
+vide details to interpret your binary encoding.
+c
+d
+b
+5. Let Σ 1 and Σ 2 be two disjoint alphabets. Is it always possible to define a one-to-one function
+(w)|
+T : Σ 1 ∗ → Σ 2 ∗ . If yes, what is maximum value of |T |w|
+? (You also need to consider the case
+in which Σ 1 or Σ 2 is unary.)
+6. Recall that a finite state machine is a 5-tuple (Q, Σ, δ, q 0 , F ). For example, an automata that
+accepts a string with one or more 1s is
+({q 1 , q 2 }, {0, 1}, {(q 1 , 0, q 1 ), (q 1 , 1, q 2 ), (q 2 , 0, q 1 ), (q 2 , 1, q 2 )}, {q 2 }).
+Consider the above description as a string over an appropriate alphabet. Is it possible to
+design a DFA that accepts a string if and only if it is a valid description of a DFA? How
+about designing a PDA/Turing machine that accepts only valid description of a DFA?
+MA453 Theory of Computation
+Assignment 1, Lec 1-2
+Due: 04 th Mar 2020, Wed
+IIT GUWAHATI
+1. Fill up the blanks:
+(a) {} ∗ =
+(b) For any language L, ∅L = L∅ =
+2. Let L be a language defined over an alphabet Σ. Define L + = LL ∗ . Under what conditions
+will L + = L ∗ − {}?
+3. Let Σ be an alphabet. Answer the following questions with formal justification:
+(a) Is every language defined over Σ countable?
+(b) Is the set of all languages defined over Σ countable?
+4. Consider the graph shown below on the right and answer the following questions.
+(a) Give a suitable alphabet of your choice and represent the graph
+as a string.
+a
+(b) Represent the graph as a string in binary alphabet {0, 1}. Pro-
+vide details to interpret your binary encoding.
+c
+d
+b
+5. Let Σ 1 and Σ 2 be two disjoint alphabets. Is it always possible to define a one-to-one function
+(w)|
+T : Σ 1 ∗ → Σ 2 ∗ . If yes, what is maximum value of |T |w|
+? (You also need to consider the case
+in which Σ 1 or Σ 2 is unary.)
+6. Recall that a finite state machine is a 5-tuple (Q, Σ, δ, q 0 , F ). For example, an automata that
+accepts a string with one or more 1s is
+({q 1 , q 2 }, {0, 1}, {(q 1 , 0, q 1 ), (q 1 , 1, q 2 ), (q 2 , 0, q 1 ), (q 2 , 1, q 2 )}, {q 2 }).
+Consider the above description as a string over an appropriate alphabet. Is it possible to
+design a DFA that accepts a string if and only if it is a valid description of a DFA? How
+about designing a PDA/Turing machine that accepts only valid description of a DFA?MA453 Theory of Computation
+Assignment 1, Lec 1-2
+Due: 04 th Mar 2020, Wed
+IIT GUWAHATI
+1. Fill up the blanks:
+(a) {} ∗ =
+(b) For any language L, ∅L = L∅ =
+2. Let L be a language defined over an alphabet Σ. Define L + = LL ∗ . Under what conditions
+will L + = L ∗ − {}?
+3. Let Σ be an alphabet. Answer the following questions with formal justification:
+(a) Is every language defined over Σ countable?
+(b) Is the set of all languages defined over Σ countable?
+4. Consider the graph shown below on the right and answer the following questions.
+(a) Give a suitable alphabet of your choice and represent the graph
+as a string.
+a
+(b) Represent the graph as a string in binary alphabet {0, 1}. Pro-
+vide details to interpret your binary encoding.
+c
+d
+b
+5. Let Σ 1 and Σ 2 be two disjoint alphabets. Is it always possible to define a one-to-one function
+(w)|
+T : Σ 1 ∗ → Σ 2 ∗ . If yes, what is maximum value of |T |w|
+? (You also need to consider the case
+in which Σ 1 or Σ 2 is unary.)
+6. Recall that a finite state machine is a 5-tuple (Q, Σ, δ, q 0 , F ). For example, an automata that
+accepts a string with one or more 1s is
+({q 1 , q 2 }, {0, 1}, {(q 1 , 0, q 1 ), (q 1 , 1, q 2 ), (q 2 , 0, q 1 ), (q 2 , 1, q 2 )}, {q 2 }).
+Consider the above description as a string over an appropriate alphabet. Is it possible to
+design a DFA that accepts a string if and only if it is a valid description of a DFA? How
+about designing a PDA/Turing machine that accepts only valid description of a DFA?
